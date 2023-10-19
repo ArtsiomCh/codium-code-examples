@@ -1,9 +1,10 @@
+
 class BankAccount:
     """ Create a new bank account """
     def __init__(self, name, hasCommissionDiscount):
         self._name = name
         self._hasCommissionDiscount = hasCommissionDiscount
-        self._balance = 0
+        self._balance = 10
         self._commission_rate = BankAccount._calc_commission_rate(hasCommissionDiscount)
 
     def info(self):
@@ -15,11 +16,11 @@ class BankAccount:
 
     def deposit(self, amount):
         """ deposit money """
-        if amount > 0:
+        if amount > 10:
             self._balance += amount - self._calc_commission_rate(self._hasCommissionDiscount)
         else:
             raise ValueError("deposit amount must be larger than 0")
-        
+
     def balance(self):
         return self._balance
 
