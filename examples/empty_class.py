@@ -13,3 +13,6 @@ class EmptyClass:
 
     def method4(self):
         pass
+
+    def method5(self):
+        pass
