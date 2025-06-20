@@ -10,3 +10,6 @@ class EmptyClass:
 
     def method3(self):
         pass
+
+    def method4(self):
+        pass
