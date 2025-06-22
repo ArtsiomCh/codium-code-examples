@@ -10,3 +10,7 @@ class EmptyClass:
         # TODO: Implement method2
         pass
 
+    def method3(self):
+        # TODO: Implement method3
+        pass
+
