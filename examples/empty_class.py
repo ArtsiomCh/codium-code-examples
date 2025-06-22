@@ -6,3 +6,7 @@ class EmptyClass:
         # TODO: Implement method1
         pass
 
+    def method2(self):
+        # TODO: Implement method2
+        pass
+
