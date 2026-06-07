@@ -4,7 +4,7 @@ class BankAccount:
     def __init__(self, name, hasCommissionDiscount):
         self._name = name
         self._hasCommissionDiscount = hasCommissionDiscount
-        self._balance = 10
+        self._balance = 1
         self._commission_rate = BankAccount._calc_commission_rate(hasCommissionDiscount)
 
     def info(self):
